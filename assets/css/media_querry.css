@@ -1,0 +1,98 @@
+
+/* 320px — 480px: Mobile devices */
+@media (max-width:480px)  {
+    .mobile-menu-toggle {
+        display: block;
+      }
+      .nav-menu li a {
+       display: none;
+       }
+       .btn-get-started {
+     
+        padding: 6px 8px;
+         font-size: .8rem;
+        
+        
+      }
+      .mobile-menu-toggle {
+        display: block;
+        border: 1px solid blue;
+        padding: .1rem .3rem;
+        border-radius: .2rem;
+        margin-left: 3%;
+      }
+      .hide{
+        display: none;
+      }
+    
+     
+}
+@media (max-width:570px) {
+  .hide{
+    display: none;
+  }
+} 
+
+
+
+/* 481px — 768px: iPads, Tablets */
+@media (max-width:779px)and (min-width:481px) {
+    .mobile-menu-toggle {
+        display: block;
+        border: 1px solid blue;
+        padding: .1rem .3rem;
+            border-radius: .2rem;
+        margin-left: 3%;
+      }
+      .nav-menu li a {
+       display: none;
+       }
+       .btn-get-started {
+     
+        padding: 6px 8px;
+         font-size: .8rem;
+        
+        
+      }
+    
+}
+
+
+
+
+
+/* 769px — 1024px: Small screens, laptops */
+@media (max-width: 1024px) and (min-width: 780px) {
+    .nav-menu li a {
+       font-size: .8rem;
+      }
+      .btn-get-started {
+     
+        padding: 6px 8px;
+         font-size: .8rem;
+        
+        
+      }
+      .toggle{
+        transform: translateY(-500px);
+      }
+  
+      
+}
+
+@media (min-width:1201px) {
+
+  .toggle{
+    transform: translateY(-500px);
+  }
+}
+
+
+/* 1025px — 1200px: Desktops, large screens */
+@media (max-width:1200px) and (min-width:1025px) {
+
+  .toggle{
+    transform: translateY(-500px);
+  }
+}
+
